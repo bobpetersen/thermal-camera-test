@@ -4,6 +4,7 @@ import Nav from './Nav/Nav';
 import Gallery from './Gallery/Gallery';
 import Header from './Header/Header';
 import Search from './Search/Search';
+import CaptureImage from './CaptureImage/CaptureImage';
 
 class Dashboard extends Component {
 
@@ -14,6 +15,7 @@ class Dashboard extends Component {
         <Nav />
         <Gallery />
         <Search />
+        <CaptureImage />
       </div>
     );
   }
