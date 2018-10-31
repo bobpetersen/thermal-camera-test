@@ -1,0 +1,4 @@
+export const SEARCH_ACTIONS = {
+    FETCH_SEARCH: 'FETCH_SEARCH',
+    SET_SEARCH: 'SET_SEARCH'
+};

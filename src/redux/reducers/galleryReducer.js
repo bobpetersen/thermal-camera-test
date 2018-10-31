@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux';
-import { SEARCH_ACTIONS } from '../actions/searchActions';
+import { GALLERY_ACTIONS } from '../actions/galleryActions';
 
-const searchReducer = (state = [], action) => {
+const galleryReducer = (state = [], action) => {
 
     switch (action.type) {
-        case SEARCH_ACTIONS.SET_SEARCH:
+        case GALLERY_ACTIONS.SET_GALLERY:
             return action.payload
         default:
             return state;
@@ -12,5 +12,5 @@ const searchReducer = (state = [], action) => {
 };
 
 export default combineReducers({
-    searchReducer,
+    galleryReducer,
 });

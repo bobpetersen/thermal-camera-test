@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import logger from 'redux-logger';
 import './index.css';
 import App from './components/App/App';
+import reducer from './redux/reducers';
 
 // Initializing to an empty object, but here is where you could
 // preload your redux state with initial values (from localStorage, perhaps)
